@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metallica Fan Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="metal-header">
+        <h1>Metallica</h1>
+        <nav>
+            <ul class="menu">
+                <li><a href="#" onclick="showSection('beranda')">Latar Belakang</a></li>
+                <li><a href="#" onclick="showSection('prestasi')">Prestasi</a></li>
+                <li><a href="#" onclick="showSection('anggota')">Anggota</a></li>
+                <li><a href="#" onclick="showSection('album')">Album</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="main-content">
+        <section id="beranda" class="content-section">
+            <div class="table-box">
+                <h3>Data Band Metallica</h3>
+                <table class="info-table">
+                    <tr>
+                        <th colspan="2">Informasi Latar Belakang</th>
+                    </tr>
+                    <tr>
+                        <td colspan="2" style="text-align: center;">
+                            <img src="MTL.jpg" alt="Foto Metallica di London 2017">
+                        </td>
+                    </tr>
+                    <tr><td>Asal</td><td>Los Angeles, California, Amerika Serikat</td></tr>
+                    <tr><td>Genre</td><td>Heavy metal, thrash metal, speed metal, hard rock</td></tr>
+                    <tr><td>Tahun Aktif</td><td>1981–sekarang</td></tr>
+                    <tr><td>Label</td><td>Elektra, Vertigo, Megaforce, Warner Bros.</td></tr>
+                    <tr><td>Artis Terkait</td><td>Slipknot, Megadeth, Ozzy Osbourne, Suicidal Tendencies</td></tr>
+                    <tr><td>Situs Web</td><td><a href="https://www.metallica.com" target="_blank">metallica.com</a></td></tr>
+                </table>
+            </div>
+            <p>Metallica telah mengukir sejarah yang tak terlupakan dalam dunia musik...</p>
+        </section>
+
+        <section id="prestasi" class="content-section" style="display: none;">
+            <h2>Prestasi</h2>
+            <div class="prestasi-container">
+                <div class="prestasi-box">
+                    <h3>Album Metal Terbaik: Master of Puppets</h3>
+                    <img src="mstr.jpg" alt="Master of Puppets">
+                </div>
+                <div class="prestasi-box">
+                    <h3>Penghargaan Grammy</h3>
+                    <img src="grmy.jpg" alt="Penghargaan Grammy">
+                </div>
+            </div>
+        </section>
+
+        <section id="anggota" class="content-section">
+            <h2>Anggota</h2>
+            <div class="anggota-container">
+                <div class="anggota-box">
+                    <img src="lars.jpg" alt="Lars Ulrich">
+                    <h3>Lars Ulrich</h3>
+                </div>
+                <div class="anggota-box">
+                    <img src="james.jpg" alt="James Hetfield">
+                    <h3>James Hetfield</h3>
+                </div>
+                <div class="anggota-box">
+                    <img src="kirk.jpg" alt="Kirk Hammett">
+                    <h3>Kirk Hammett</h3>
+                </div>
+                <div class="anggota-box">
+                    <img src="robert.jpg" alt="Robert Trujillo">
+                    <h3>Robert Trujillo</h3>
+                </div>
+            </div>
+        </section>
+
+        <section id="album" class="content-section" style="display: none;">
+            <h2>Album Metallica</h2>
+            <div class="album">
+                <h3>Master of Puppets</h3>
+                <img src="albm.jpg" alt="Master of Puppets Album">
+                <p>Released in 1986, it is one of Metallica's most acclaimed albums.</p>
+            </div>
+            <div class="album">
+                <h3>The Black Album</h3>
+                <img src="tbal.jpg" alt="The Black Album">
+                <p>Released in 1991, this album marked a shift to a more mainstream sound.</p>
+            </div>
+            <div class="album">
+                <h3>Ride the Lightning</h3>
+                <img src="rtl.jpg" alt="Ride the Lightning Album">
+                <p>Released in 1984, it featured some of Metallica's most popular songs.</p>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Metallica Fan Page. Semua hak cipta dilindungi.</p>
+    </footer>
+
+</body>
+</html>
